@@ -1,12 +1,74 @@
 @charset "UTF-8";
-.wrapper__scratch {
+html {
     width: 100%;
     height: 100%;
     font-size: 14px;
-    min-width:980px;
+    min-width: 980px;
 }
 
-.wrapper__scratch .l-navi {
+body {
+    width: 100%;
+    font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
+    line-height: 1.7;
+    min-width: 980px;
+}
+
+
+/* ナビゲーション */
+.l-navi {
     background: #222;
     height: 40px;
+    overflow: hidden; //float解除
+}
+
+.l-navi .navi__text li{
+    display: inline-block;
+    color:  #fff;
+    line-height: 1;
+    margin-right: 20px;
+    float: right;
+}
+
+.l-navi .navi__text li a{
+    color: #fff;
+    text-decoration: none; //全体的になくす方向で調整
+}
+
+
+/* コンテンツ全体 */
+
+.contentsSec__inner{
+    width: 860px;
+    margin: 40px auto 0;
+    overflow: hidden; //float解除 
+}
+
+/* メインビジュアル */
+
+.mainVisual__item {
+    width: 100%;
+    height: 100%;
+    line-height: 0; //画像の隙間をなくす
+    margin-bottom: 20px; 
+}
+
+.mainVisual__item a{
+    display: block;
+}
+
+.Visual__sizeL img{
+    width: 860px;
+    height: 448px;
+}
+
+.Visual__sizeM,.Visual__sizeM img{
+    width: 570px;
+    height: 300px;
+    float: left;
+}
+
+.Visual__sizeS,.Visual__sizeS img{
+    width: 274px;
+    height: 144px;
+    float: right;
 }

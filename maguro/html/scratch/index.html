@@ -6,443 +6,45 @@
 <meta charset="utf-8">
 <meta name="description" content="###">
 <meta name="application-name" content="DMM.com" >
-
-
-<!-- IE9用 -->
-<meta name="msapplication-tooltip" content="DVDレンタル、通販、動画配信、FX等の総合サイト" >
-<meta name="msapplication-starturl" content="/" >
-<meta name="msapplication-window" content="width=1280;height=1024" >
-<meta name="msapplication-navbutton-color" content="#222222" >
-<meta name="msapplication-task" content="name=動画サービス;action-uri=/digital/;icon-uri=http://p.dmm.com/p/common/pinned/task.ico" >
-<meta name="msapplication-task" content="name=DVD/CDレンタルサービス;action-uri=/rental/;icon-uri=http://p.dmm.com/p/common/pinned/task.ico" >
-<meta name="msapplication-task" content="name=通販サービス;action-uri=/mono/;icon-uri=http://p.dmm.com/p/common/pinned/task.ico" >
-
-
-<!-- Yahoo! の検索エンジンにおいて、カテゴリ登録されているスニペットを要約文として反映しないように指定する meta タグ -->
-<meta name="Slurp" content="NOYDIR" >
-
-
-<!--[if gte IE 9]><link href="http://p.dmm.com/p/common/pinned/general/favicon.ico" rel="shortcut icon" ><![endif]-->
-
-
-<!-- HTML5化で必須 -->
-<!--[if lt IE 9]> <script charset="utf-8" src="http://www.dmm.com/js/common/html5shiv.js"></script><![endif]-->
-
-
-<!-- 必須 -->
-<link href="http://www.dmm.com/css/base.css" media="screen" rel="stylesheet" type="text/css" >
-<link href="/css/pc/common.css" rel="stylesheet" >
-<script src="http://www.dmm.com/js/bugfix.js"></script>
+<link href="/dist/css/style.css" rel="stylesheet" >
 </head>
 
 
-<body class="d-body-mg0">
-
-
-
-<!-- 上ナビ　ここから　curl通信にて読み込んでください -->
-<!--[if IE 7]><div class="d-hd-ie7"><![endif]--><!--[if IE 8]><div class="d-hd-ie8"><![endif]--><!--[if IE 9]><div class="d-hd-ie9"><![endif]-->
-<div id="d-header" class="hd-deviceDefault">
-    <div id="top" class="hd-main">
-    
-        <div class="hd-main__left">
-            <div class="hd-main__menu">
-                <div class="hd-main__menu__item hd-fn-floatnavi-target">
-                    <span class="hd-nav hd-nav--service hd-fn-floatnavi-icon"><span class="hd-nav__txt">サービス</span></span>
-                    <div class="hd-floatnavi hd-floatnavi--serviceCom hd-fn-floatnavi-box">
-                        <span class="hd-nav hd-nav--service hd-fn-floatnavi-icon"><span class="hd-nav__txt">サービス</span></span>
-                        <div class="hd-floatnavi__box">
-                            <div class="hd-service hd-service--01">
-                                <div class="hd-service__boxLink">
-                                    <a href="#" class="hd-service__boxLink__com">DMM.com トップへ</a>
-                                </div>
-                                <ul class="hd-listService">
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--netgame">DMM GAMES</a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--fx">DMM FX</a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--banusy">DMM バヌーシー<span class="hd-txtCatch">NEW</span></a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--eikaiwa">DMM 英会話</a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--rental">DVD/CDレンタル</a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--mvno">DMM mobile 格安スマホ</a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--digital">動画</a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--book">電子書籍</a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--lod">AKB48グループ</a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--make">DMM.make</a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--mono">通販</a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--iroiro">いろいろレンタル</a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--theater">DMM VR THEATER</a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--pcsoft">PCソフト</a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--lounge">DMM オンラインサロン</a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--robots">DMM.make ROBOTS</a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--yell">アイドル応援 DMM.yell</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="hd-service hd-service--02">
-                                <ul class="hd-listService">
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--prime">動画見放題ch</a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--hikari">DMM光 ネット回線</a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--kouenirai">講演依頼</a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--event">イベント/チケット</a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--okan">DMM Okan 家事代行</a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--energy">DMM エナジー/太陽光発電</a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--ptown">パチンコ/パチスロ</a>
-                                    </li>
-                                    <li class="hd-listService__item d-translate">
-                                        <a href="#" class="hd-listService__link hd-ico hd-ico--chari">DMM 競輪</a>
-                                    </li>
-                                </ul>
-                                <div class="hd-service__boxLink">
-                                    <a href="#" class="hd-service__boxLink__r18">DMM.R18 トップへ</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="hd-main__menu__item">
-                    <a href="#" class="hd-logo">
-                        <img src="http://p.dmm.com/p/common/header/logo/logo_com.png" srcset="http://p.dmm.com/p/common/header/logo/logo_com.png 1x, http://p.dmm.com/p/common/header/logo/logo_com@2x.png 2x" alt="DMM.com" height="28">
-                    </a>
-                </div>
-
-            </div>
-            <!-- /hd-main__left -->
-        </div>
-
-        <div class="hd-main__right">
-            <!-- 検索BOX -->
-            <div class="hd-main__srch">
-                <form action="/search/" name="search_form" method="GET" target="_parent" id="frmSearch">
-                    <input type="hidden" name="analyze" value="V1EBDlYBUgM_">
-                    <input type="hidden" name="redirect" value="1">
-                    <input type="hidden" name="sort" value="">
-                    <input type="hidden" name="limit" value="">
-                    <input type="hidden" name="view" value="">
-                    <input type="hidden" name="enc" value="UTF-8">
-                    <div id="suggest" style="display: none;"></div>
-                    <fieldset>
-                        <legend>サイト内検索</legend>
-                        <div class="hd-main__srch__wrapper">
-                            <p class="hd-main__srch__box hd-pd" style="width: 54px;">
-                                <select name="category">
-                                    <option value="">すべて</option>
-                                    <option value="lod">AKB48グループ</option>
-                                    <option value="lod_akb48">&nbsp;&nbsp;-&nbsp;AKB48</option>
-                                    <option value="lod_ske48">&nbsp;&nbsp;-&nbsp;SKE48</option>
-                                    <option value="lod_nmb48">&nbsp;&nbsp;-&nbsp;NMB48</option>
-                                    <option value="lod_hkt48">&nbsp;&nbsp;-&nbsp;HKT48</option>
-                                    <option value="lod_ngt48">&nbsp;&nbsp;-&nbsp;NGT48</option>
-                                    <option value="lod_rod">&nbsp;&nbsp;-&nbsp;REVIVAL!! ON DEMAND</option>
-                                    <option value="digital">動画</option>
-                                    <option value="digital_tod">&nbsp;&nbsp;-&nbsp;TBSオンデマンド</option>
-                                    <option value="digital_bandai">&nbsp;&nbsp;-&nbsp;バンダイチャンネル</option>
-                                    <option value="digital_anime">&nbsp;&nbsp;-&nbsp;アニメ</option>
-                                    <option value="digital_idol">&nbsp;&nbsp;-&nbsp;アイドル</option>
-                                    <option value="digital_cinema">&nbsp;&nbsp;-&nbsp;映画・ドラマ</option>
-                                    <option value="digital_music">&nbsp;&nbsp;-&nbsp;ミュージック</option>
-                                    <option value="digital_fight">&nbsp;&nbsp;-&nbsp;格闘技</option>
-                                    <option value="digital_video">&nbsp;&nbsp;-&nbsp;バラエティ</option>
-                                    <option value="monthly">月額動画</option>
-                                    <option value="monthly_idol">&nbsp;&nbsp;-&nbsp;アイドル</option>
-                                    <option value="monthly_prime">&nbsp;&nbsp;-&nbsp;見放題ch ライト</option>
-                                    <option value="ebook">電子書籍</option>
-                                    <option value="comic">&nbsp;&nbsp;-&nbsp;コミック</option>
-                                    <option value="novel">&nbsp;&nbsp;-&nbsp;文芸・ラノベ</option>
-                                    <option value="otherbooks">&nbsp;&nbsp;-&nbsp;ビジネス・実用</option>
-                                    <option value="photo">&nbsp;&nbsp;-&nbsp;写真集</option>
-                                    <option value="pcsoft">PCソフト</option>
-                                    <option value="digital_pcgame">&nbsp;&nbsp;-&nbsp;PCゲーム</option>
-                                    <option value="digital_pcsoft">&nbsp;&nbsp;-&nbsp;ソフトウェア</option>
-                                    <option value="mono">通販</option>
-                                    <option value="mono_dvd">&nbsp;&nbsp;-&nbsp;DVD・Blu-ray</option>
-                                    <option value="mono_cd">&nbsp;&nbsp;-&nbsp;CD</option>
-                                    <option value="mono_book">&nbsp;&nbsp;-&nbsp;本・コミック</option>
-                                    <option value="mono_game">&nbsp;&nbsp;-&nbsp;ゲーム</option>
-                                    <option value="mono_hobby">&nbsp;&nbsp;-&nbsp;ホビー</option>
-                                    <option value="rental">DVD/CDレンタル</option>
-                                    <option value="rental_dvd">&nbsp;&nbsp;-&nbsp;月額DVDレンタル</option>
-                                    <option value="rental_cd">&nbsp;&nbsp;-&nbsp;月額CDレンタル</option>
-                                    <option value="ppr_dvd">&nbsp;&nbsp;-&nbsp;単品DVDレンタル</option>
-                                    <option value="ppr_cd">&nbsp;&nbsp;-&nbsp;単品CDレンタル</option>
-                                    <option value="rental_comic">&nbsp;&nbsp;-&nbsp;コミック</option>
-                                    <option value="nandemo">いろいろレンタル</option>
-                                    <option value="fashion_ladies">&nbsp;&nbsp;-&nbsp;レディースファッション</option>
-                                    <option value="fashion_mens">&nbsp;&nbsp;-&nbsp;メンズファッション</option>
-                                    <option value="rental_iroiro">&nbsp;&nbsp;-&nbsp;いろいろ</option>
-                                </select>
-                                <span id="select-value">すべて</span>
-                            </p>
-                            <div class="hd-main__srch__box">
-                                <input type="text" name="searchstr" id="searchstr" value="" size="40" title="検索文字を入力" class="txt-srch" autocomplete="off" placeholder="キーワードから探す（商品・サービス・ゲームなど）">
-                            </div>
-                            <div class="hd-main__srch__box hd-bt">
-                                <input class="bt-srch" type="submit" name="commit" value="検索">
-                            </div>
-                        </div>
-                    </fieldset>
-                </form>
-                <!-- /hd-srch-->
-            </div>
-            <!-- 検索BOX end -->
-            <ul class="hd-main__submenu">
-                <li class="hd-main__submenu__item">
-                    <a href="#" class="hd-nav hd-nav--help"><span class="hd-nav__txt">ヘルプ</span></a>
-                </li>
-                <li class="hd-main__submenu__item hd-fn-floatnavi-target">
-                    <span class="hd-nav hd-nav--basket hd-fn-floatnavi-icon"><span class="hd-nav__txt">バスケット</span></span>
-                    <div class="hd-floatnavi hd-floatnavi--basket hd-fn-floatnavi-box">
-                        <a href="#" class="hd-nav hd-nav--basket hd-fn-floatnavi-icon"><span class="hd-nav__txt">バスケット</span></a>
-                        <div class="hd-floatnavi__box">
-                            <div class="hd-basket hd-basket--01">
-                                <dl class="hd-defList">
-                                    <dt class="hd-defList__ttl hd-ico hd-ico--digital">デジタル商品</dt>
-                                    <dd class="hd-defList__box">
-                                        <ul class="hd-links hd-links--arrow">
-                                            <li class="hd-links__item">
-                                                <a href="#" class="hd-links__link"><span class="hd-links__txt">動画</span></a>
-                                            </li>
-                                            <li class="hd-links__item">
-                                                <a href="#" class="hd-links__link"><span class="hd-links__txt">電子書籍</span></a>
-                                            </li>
-                                            <li class="hd-links__item">
-                                                <a href="#" class="hd-links__link"><span class="hd-links__txt">PCソフト</span></a>
-                                            </li>
-                                        </ul>
-                                    </dd>
-                                </dl>
-                                <dl class="hd-defList">
-                                    <dt class="hd-defList__ttl hd-ico hd-ico--mono">通販</dt>
-                                    <dd class="hd-defList__box">
-                                        <ul class="hd-links hd-links--arrow">
-                                            <li class="hd-links__item">
-                                                <a href="#" class="hd-links__link"><span class="hd-links__txt">通販</span></a>
-                                            </li>
-                                            <li class="hd-links__item">
-                                                <a href="#" class="hd-links__link"><span class="hd-links__txt">マーケットプレイス</span></a>
-                                            </li>
-                                        </ul>
-                                    </dd>
-                                </dl>
-                            </div>
-                            <div class="hd-basket hd-basket--02">
-                                <dl class="hd-defList">
-                                    <dt class="hd-defList__ttl hd-ico hd-ico--rental">レンタル</dt>
-                                    <dd class="hd-defList__box">
-                                        <ul class="hd-links hd-links--arrow">
-                                            <li class="hd-links__item">
-                                                <a href="#" class="hd-links__link"><span class="hd-links__txt">DVD/CD</span></a>
-                                            </li>
-                                            <li class="hd-links__item">
-                                                <a href="#" class="hd-links__link"><span class="hd-links__txt">コミック</span></a>
-                                            </li>
-                                            <li class="hd-links__item">
-                                                <a href="#" class="hd-links__link"><span class="hd-links__txt">いろいろレンタル</span></a>
-                                            </li>
-                                        </ul>
-                                    </dd>
-                                </dl>
-                                <dl class="hd-defList">
-                                    <dt class="hd-defList__ttl hd-ico hd-ico--make">.make</dt>
-                                    <dd class="hd-defList__box">
-                                        <ul class="hd-links hd-links--arrow">
-                                            <li class="hd-links__item">
-                                                <a href="#" class="hd-links__link"><span class="hd-links__txt">3Dプリント</span></a>
-                                            </li>
-                                            <li class="hd-links__item">
-                                                <a href="#" class="hd-links__link"><span class="hd-links__txt">ロボット</span></a>
-                                            </li>
-                                        </ul>
-                                    </dd>
-                                </dl>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="hd-main__submenu__item hd-fn-floatnavi-target d-translate">
-                    <span class="hd-nav hd-nav--login hd-fn-floatnavi-icon"><span class="hd-nav__txt">ログイン</span></span>
-                    <div class="hd-floatnavi hd-floatnavi--login hd-fn-floatnavi-box">
-                        <span class="hd-nav hd-nav--login hd-fn-floatnavi-icon"><span class="hd-nav__txt">ログイン</span></span>
-                        <div class="hd-floatnavi__box">
-                            <div class="hd-my">
-                                <div class="hd-my__login">
-                                    <a href="#" class="hd-btn hd-btn--regist">会員登録</a>
-                                    <a href="#" class="hd-btn hd-btn--login">ログイン</a>
-                                </div>
-                                <div class="hd-my__box hd-my__box--01">
-                                    <dl class="hd-defList">
-                                        <dt class="hd-defList__ttl hd-ico hd-ico--purchased">購入済み情報</dt>
-                                        <dd class="hd-defList__box">
-                                            <ul class="hd-links">
-                                                <li class="hd-links__item">
-                                                    <a href="#" class="hd-links__link" id="click_digital"><span class="hd-links__txt">動画</span><span class="hd-links__tag">購入済み商品</span></a>
-                                                </li>
-                                                <li class="hd-links__item">
-                                                    <a href="#" class="hd-links__link" id="click_book"><span class="hd-links__txt">電子書籍</span><span class="hd-links__tag">購入済み商品</span></a>
-                                                </li>
-                                                <li class="hd-links__item">
-                                                    <a href="#" class="hd-links__link" id="click_dlsoft"><span class="hd-links__txt">PCソフト</span><span class="hd-links__tag">購入済み商品</span></a>
-                                                </li>
-                                                <li class="hd-links__item">
-                                                    <a href="#" class="hd-links__link" id="click_rental"><span class="hd-links__txt">月額レンタル</span><span class="hd-links__tag">月額リスト</span></a>
-                                                </li>
-                                                <li class="hd-links__item">
-                                                    <a href="#" class="hd-links__link" id="click_iroiro"><span class="hd-links__txt">いろいろレンタル</span><span class="hd-links__tag">ご注文リスト</span></a>
-                                                </li>
-                                                <li class="hd-links__item">
-                                                    <a href="#" class="hd-links__link" id="click_netgame"><span class="hd-links__txt">DMM GAMES</span><span class="hd-links__tag">マイゲーム</span></a>
-                                                </li>
-                                                <li class="hd-links__item">
-                                                    <a href="#" class="hd-links__link" id="click_mono"><span class="hd-links__txt">通販</span><span class="hd-links__tag">注文履歴</span></a>
-                                                </li>
-                                                <li class="hd-links__item">
-                                                    <a href="#" class="hd-links__link" id="click_yell"><span class="hd-links__txt">アイドル応援 DMM.yell</span><span class="hd-links__tag">マイページ</span></a>
-                                                </li>
-                                            </ul>
-                                            <ul class="hd-links">
-                                                <li class="hd-links__item">
-                                                    <a href="#" class="hd-links__link" id="click_auction"><span class="hd-links__txt">オークション</span><span class="hd-links__tag">オークション履歴</span></a>
-                                                </li>
-                                                <li class="hd-links__item">
-                                                    <a href="#" class="hd-links__link" id="click_mvno"><span class="hd-links__txt">モバイル/格安スマホ</span><span class="hd-links__tag">マイページ</span></a>
-                                                </li>
-                                                <li class="hd-links__item">
-                                                    <a href="#" class="hd-links__link" id="click_hikari"><span class="hd-links__txt">DMM光 ネット回線</span><span class="hd-links__tag">マイページ</span></a>
-                                                </li>
-                                                <li class="hd-links__item">
-                                                    <a href="#" class="hd-links__link" id="click_make"><span class="hd-links__txt">make 3Dプリント</span><span class="hd-links__tag">マイ3Dページ</span></a>
-                                                </li>
-                                                <li class="hd-links__item">
-                                                    <a href="#" class="hd-links__link" id="click_robots"><span class="hd-links__txt">ロボット</span><span class="hd-links__tag">マイページ</span></a>
-                                                </li>
-                                                <li class="hd-links__item">
-                                                    <a href="#" class="hd-links__link" id="click_event"><span class="hd-links__txt">イベント/チケット</span><span class="hd-links__tag">マイページ</span></a>
-                                                </li>
-                                                <li class="hd-links__item">
-                                                    <a href="#" class="hd-links__link" id="click_lounge"><span class="hd-links__txt">オンラインサロン</span><span class="hd-links__tag">入会中サロン</span></a>
-                                                </li>
-                                            </ul>
-                                        </dd>
-                                    </dl>
-                                </div>
-                                <div class="hd-my__box hd-my__box--02">
-                                    <dl class="hd-defList">
-                                        <dt class="hd-defList__ttl hd-ico hd-ico--account">アカウント</dt>
-                                        <dd class="hd-defList__box">
-                                            <ul class="hd-links hd-links--arrow">
-                                                <li class="hd-links__item">
-                                                    <a href="#" class="hd-links__link"><span class="hd-links__txt">お客様情報</span></a>
-                                                </li>
-                                            </ul>
-                                        </dd>
-                                    </dl>
-                                    <dl class="hd-defList">
-                                        <dt class="hd-defList__ttl hd-ico hd-ico--favorite">お気に入り</dt>
-                                        <dd class="hd-defList__box">
-                                            <ul class="hd-links hd-links--arrow">
-                                                <li class="hd-links__item">
-                                                    <a href="#" class="hd-links__link"><span class="hd-links__txt">動画</span></a>
-                                                </li>
-                                                <li class="hd-links__item">
-                                                    <a href="#" class="hd-links__link"><span class="hd-links__txt">電子書籍</span></a>
-                                                </li>
-                                                <li class="hd-links__item">
-                                                    <a href="#" class="hd-links__link"><span class="hd-links__txt">PCソフト</span></a>
-                                                </li>
-                                                <li class="hd-links__item">
-                                                    <a href="#" class="hd-links__link"><span class="hd-links__txt">DVD/CDレンタル</span></a>
-                                                </li>
-                                                <li class="hd-links__item">
-                                                    <a href="#" class="hd-links__link"><span class="hd-links__txt">通販</span></a>
-                                                </li>
-                                            </ul>
-                                        </dd>
-                                    </dl>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="hd-main__submenu__item">
-                    <a href="#" class="hd-boxLink hd-boxLink--dmmr18"><span>DMM.R18へ</span></a>
-                </li>
-            </ul>
-            <!-- /hd-main__right -->
-        </div>
-
-        <script type="text/javascript" src="http://www.dmm.com/js/head_parts_logo.js"></script>
-
-    </div>
-<!-- /d-header -->
-</div>
-
-<!--[if gte IE 7]></div><![endif]-->
-
-<!-- 上ナビ　ここまで　-->
-
-
+<body>
 
 <!-- コンテンツ　ここから -->
 <div class="wrapper__scratch">
+
     <div class="l-navi">
-            <ul>
-                <li>販売終了商品一覧</li>
-                <li>お知らせ一覧</li>
-                <li>購入履歴</li>
-                <li>よくある質問</li>
+            <ul class="navi__text">
+                <li><a href="#">販売終了商品一覧</a></li>
+                <li><a href="#">お知らせ一覧</a></li>
+                <li><a href="#">購入履歴</a></li>
+                <li><a href="#">よくある質問</a></li>
             </ul>
     </div>
     <div class="l-mainContents">
         <div class="contentsSec__inner">
-            <a class=""><img src=""></a>
-            <a class=""><img src=""></a>
-            <a class=""><img src=""></a>
-            <a class=""><img src=""></a>
+            <div class="mainVisual__item Visual__sizeL">
+                <a href="#">
+                    <img src="https://scratch.dmm.com/s3/kuji/l2dj0MGpeCpwghCvSFQBPEpOkPhMBnF9QNxWq7R0.jpeg" alt="">
+                </a>
+            </div>
+            <div class="mainVisual__item Visual__sizeM">
+                <a href="#">
+                    <img src="https://scratch.dmm.com/s3/kuji/l2dj0MGpeCpwghCvSFQBPEpOkPhMBnF9QNxWq7R0.jpeg" alt="">
+                </a>
+            </div>
+            <div class="mainVisual__item Visual__sizeS">
+                <a href="#">
+                    <img src="https://scratch.dmm.com/s3/kuji/l2dj0MGpeCpwghCvSFQBPEpOkPhMBnF9QNxWq7R0.jpeg" alt="">
+                </a>
+            </div>
+            <div class="mainVisual__item Visual__sizeS">
+                <a href="#">
+                    <img src="https://scratch.dmm.com/s3/kuji/l2dj0MGpeCpwghCvSFQBPEpOkPhMBnF9QNxWq7R0.jpeg" alt="">
+                </a>
+            </div>
         </div>
         <div class="contentsSec__inner">
             <div class="m-listRefine">
@@ -504,64 +106,11 @@
             <p class="c-text__sentence">詳しくは<a class="p-text__link">ご利用ガイド</a>を確認ください。</p>
         </div>
 
-
-
-
-
     </div>
 
 </div>
 
 <!-- コンテンツ　ここまで -->
-
-
-
-<!-- フッター　ここから -->
-
-<div id="footer">
-    <p class="anchor"><a href="#" class="d-txttopback">このページのトップへ</a></p>
-    <div class="wp-info">
-        <ul class="info">
-            <li>
-                <p>DMM ご利用ガイド</p>
-                <ul>
-                    <li><a href="#" target="_top">登録・ご利用方法</a></li>
-                    <li><a href="#" target="_top">よくある質問</a></li>
-                </ul>
-            </li>
-            <li>
-                <p>お問い合わせ・規約</p>
-                <ul>
-                    <li><a href="#" target="_top">お問い合わせはこちら</a></li>
-                </ul>
-            </li>
-            <li>
-                <p>お得な情報</p>
-                <ul>
-                    <li><a href="#">DMMメールマガジン</a><br><span>お得な情報を無料でお届けします。</span></li>
-                    <li><a href="#">DMMアフィリエイト</a><br><span>DMMの商品を紹介して広告収入をゲット！</span></li>
-                    <li><a href="#">DMM FX/CFDアフィリエイト</a><br><span>DMM FX/CFDを紹介して広告収入をゲット！</span></li>
-                </ul>
-            </li>
-        </ul>
-        <!-- /.wp-info -->
-    </div>
-    <ul class="ft-nav">
-        <li><a href="#">会社概要</a></li>
-        <li><a href="#">プレスリリース</a></li>
-        <li><a href="#" rel="nofollow">会員規約</a></li>
-        <li><a href="#" rel="nofollow">個人情報保護に関して</a></li>
-        <li><a href="#" rel="nofollow">特定商取引法に基づく表示</a></li>
-        <li><a href="#" target="_blank">スタッフ募集</a></li>
-        <li class="last"><a href="#">ビジネスパートナー募集</a></li>
-    </ul>
-    <p class="copy"><small>Copyright © since 1998 DMM All Rights Reserved.</small></p>
-    <!-- #footer -->
-</div>
-
-<!-- フッター　ここまで -->
-
-
 
 
 </body>
