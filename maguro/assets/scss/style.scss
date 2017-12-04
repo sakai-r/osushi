@@ -1,5 +1,17 @@
-// reset
-@import "./reset.scss";
+@charset "UTF-8";
+
+// normalize
+@import "./_normalize.scss";
 
 // font
-@import "./pc/common.scss";
+@import "./_font.scss";
+
+// common
+@import "./pc/_common.scss";
+
+// modules
+@import "./pc/modules/_nav.scss";
+@import "./pc/modules/_btn.scss";
+
+// 各ページ独自の設定
+@import "./pc/_uniquecode.scss";

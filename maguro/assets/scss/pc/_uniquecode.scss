@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* TOPページ：メインビジュアル */
+
+.contentsSec__inner {
+    overflow: hidden;
+}
+
+.mainVisual__item {
+    width: 100%;
+    height: 100%;
+    line-height: 0; //画像の隙間をなくす
+    margin-bottom: 13px; 
+
+    a{
+        display: block;
+    }
+
+}
+
+.Visual__sizeL img {
+    width: 860px;
+    height: 448px;
+}
+
+.Visual__sizeM,.Visual__sizeM img {
+    width: 570px;
+    height: 300px;
+    float: left;
+}
+
+.Visual__sizeS,.Visual__sizeS img {
+    width: 274px;
+    height: 144px;
+    float: right;
+}
+
+
+/* TOPページ： */

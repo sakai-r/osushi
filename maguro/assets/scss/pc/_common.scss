@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+html {
+    width: 100%;
+    height: 100%;
+    font-size:62.5%;
+    min-width: 980px;
+}
+
+body {
+    width: 100%;
+    font-family: $font-gothic;
+    font-size:1.6rem;
+    line-height: 1.5;
+    min-width: 980px;
+}
+
+ol,ul {
+    list-style:none;
+    margin: 0;
+  }
+
+a {
+    text-decoration: none;
+}
+
+
+/* コンテンツ全体 */
+
+.contentsSec__inner {
+    width: 860px;
+    margin: 40px auto 0;//ここでtop40pxを設定すべきか
+}
