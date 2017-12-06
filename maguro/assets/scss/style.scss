@@ -1,17 +1,17 @@
 @charset "UTF-8";
 
 // normalize
-@import "./_normalize.scss";
+@import "./normalize.scss";
 
 // font
-@import "./_font.scss";
+@import "./font.scss";
 
 // common
-@import "./pc/_common.scss";
+@import "./pc/common.scss";
 
 // modules
-@import "./pc/modules/_nav.scss";
-@import "./pc/modules/_btn.scss";
+@import "./pc/modules/nav.scss";
+@import "./pc/modules/btn.scss";
 
 // 各ページ独自の設定
-@import "./pc/_uniquecode.scss";
+@import "./pc/uniquecode.scss";

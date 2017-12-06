@@ -6,20 +6,17 @@
     .m-listRefine {
         .refine__text {
             display: flex;
-            flex-direction: row;
             justify-content: center;
             li {
-                margin: 1rem;                
+                margin: 0 1rem;                
 
-                a {
+                button {
                     display: inline-block;
                     width: 140px;
                     padding: 5px 0;
                     text-align: center;
                     border: 2px solid #000;
                     border-radius: 3px;
-                    -webkit-border-radius: 3px;
-                    -moz-border-radius: 3px; 
                 }
             }
         }
