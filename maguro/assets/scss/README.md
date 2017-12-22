@@ -1,53 +1,64 @@
 # クラスの命名規則
-________
 
 ## BEMの考え方を採用
 
 - Block（構成要素）
 
-ページ内で何度でもどこでも置くことが出来る独立して動作するもの。
+    ページ内で何度でもどこでも置くことが出来る独立して動作するもの。
 
 - Element（部品）
 
-Blockに紐付いて定義される。要素内のパーツであり、Block内であれば繰り返し使用できる。
+    Blockに紐付いて定義される。要素内のパーツであり、Block内であれば繰り返し使用できる。
 
 - Modifier（装飾）
 
-少しだけ違うものを量産するときに用いる。あくまで変更がかかる要素に対して付ける。
+    少しだけ違うものを量産するときに用いる。あくまで変更がかかる要素に対して付ける。
 
-- BlockとElement（要素）をつなぐ時はアンダースコア2つ `__`
+### 接続方法
 
-    * `Block + Element` 例： area__title , wrapperSection__text
-    * `Block + Element + Element` 例： area__aleat__title , wrapperSection__aleat__text
+- BlockとElement（要素）をつなぐ時はアンダースコア`__`2つ
 
-* Modifier（装飾）につなぐ時はハイフン2つ`--`
+    * Block + Element
+        例： area__title , wrapperSection__text
 
-    * `Block + Modifier` 例：area--large , wrapperSection--red
-    * `Block + Element + Modifier` 例：area__title--large , wrapperSection__text--red
+    * Block + Element + Element
+        例： area__aleat__title , wrapperSection__aleat__text
+
+- Modifier（装飾）につなぐ時はハイフン`--`2つ
+
+    * Block + Modifier
+        例：area--large , wrapperSection--red
+
+    * Block + Element + Modifier
+        例：area__title--large , wrapperSection__text--red
 
 
 ## 複数語を繋ぐ場合
 
-* キャメルケースを採用、範囲 + 種類・固有名詞
+- キャメルケースを採用、
 
-    * 例：areaPost , wrapperSection
+    * 範囲 + 種類・固有名詞
+        例：areaPost , wrapperSection
 
 
 ## チート表
 
 ### Block
 
-* 場所
+- 場所
 
-    ```section - 区分・区画。
-    content - 文書の内容。
-    article - 記事。
-    post - 投稿。
-    top - 頂上・上部。
-    home- トップページ。
-    sidebar - 補足記事。```
+| 単語        | 意味        |
+|:-----------|------------:|
+| section    | 区分・区画    |
+| content    | 文書の内容    |
+| article    | 記事         |
+| post       | 投稿         |
+| top        | 頂上・上部    |
+| home       | トップページ   |
+| sidebar    | 補足記事      |
 
-* 補足
+
+- 補足
 
     ```wrapper - 内包する。
     wrap - wrapperの略語。
@@ -57,7 +68,7 @@ Blockに紐付いて定義される。要素内のパーツであり、Block内�
     brand - ブランドの。
     site - サイトの。```
 
-* 比較
+- 比較
 
     ```main - 主要な。
     primary - 主要な。
@@ -69,7 +80,7 @@ Blockに紐付いて定義される。要素内のパーツであり、Block内�
     local - 局所的な。
     general - 一般的な。```
 
-* レイアウト
+- レイアウト
 
     ```wrapper - 複数の要素を内包する。
     grid - グリッドレイアウト。
@@ -81,7 +92,7 @@ Blockに紐付いて定義される。要素内のパーツであり、Block内�
     card - （主に）画像を目立たせるカード型。
     tile - 繰り返しによって構成されるパターン。```
 
-* コンテンツ
+- コンテンツ
 
     ```about - 〜について。
     work - 仕事・任務。
@@ -105,7 +116,7 @@ Blockに紐付いて定義される。要素内のパーツであり、Block内�
     qanda - Question and answer（質問と回答）の略。
     faq - qandaの類語、Frequently asked questions（よくある質問）の略。```
 
-* Image
+- Image
 
     ```image - 画像。
     img - imageの略語。
@@ -121,7 +132,7 @@ Blockに紐付いて定義される。要素内のパーツであり、Block内�
     slider - carouselの類語。
     ticker - carouselの類語で自動でアイテムを左右に流しながら表示する。ユーザーは基本的にコントロールできない。```
 
-* Navigation
+- Navigation
 
     ```navigation - 情報へ誘導するリンク。
     nav - navigationの略語。
@@ -143,7 +154,7 @@ Blockに紐付いて定義される。要素内のパーツであり、Block内�
     sitemap - サイト内のすべてのページへのリンクをリスト化したもの。
     sns - ソーシャルネットワーキングサービス。```
 
-* Form
+- Form
 
     ```form - 送信フォーム。
     login - ユーザー認証をするためのフォーム。
@@ -158,7 +169,7 @@ Blockに紐付いて定義される。要素内のパーツであり、Block内�
 
 ### Element
 
-* テキスト
+- テキスト
 
     ```link - アンカーテキスト。
     label - 分類する・項目名。
@@ -171,7 +182,7 @@ Blockに紐付いて定義される。要素内のパーツであり、Block内�
     button - オン・オフの選択に使うインターフェイス。
     btn - buttonの略語。```
 
-* 汎用的
+- 汎用的
 
     ```inner - 内側の。
     outer - 外側の。
@@ -209,7 +220,7 @@ Blockに紐付いて定義される。要素内のパーツであり、Block内�
     separator - delimiterの類語で混ぜないように分離する目的で使います。
     divider - delimiterの類語でグルーピングするように分割する目的で使います。```
 
-* 補足
+- 補足
 
     ```emphasis - 強調・重視。
     catch - 興味を惹く・関心をつかむ。
