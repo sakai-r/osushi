@@ -6,11 +6,9 @@
 
 ページ内で何度でもどこでも置くことが出来る独立して動作するもの。
 
-
 - Element（部品）
 
 Blockに紐付いて定義される。要素内のパーツであり、Block内であれば繰り返し使用できる。
-
 
 - Modifier（装飾）
 
@@ -21,25 +19,23 @@ Blockに紐付いて定義される。要素内のパーツであり、Block内�
 
 - BlockとElement（要素）をつなぐ時はアンダースコア`__`2つ
 
-* Block + Element  
+    * Block + Element  
 
-例： area__title , wrapperSection__text
+        * 例： area__title , wrapperSection__text
 
-* Block + Element + Element  
+    * Block + Element + Element  
 
-例： area__aleat__title , wrapperSection__aleat__text
-
+        * 例： area__aleat__title , wrapperSection__aleat__text
 
 - Modifier（装飾）につなぐ時はハイフン`--`2つ
 
-* Block + Modifier  
+    * Block + Modifier  
 
-例：area--large , wrapperSection--red
+        * 例：area--large , wrapperSection--red
 
+    * Block + Element + Modifier  
 
-* Block + Element + Modifier  
-
-例：area__title--large , wrapperSection__text--red
+        * 例：area__title--large , wrapperSection__text--red
 
 
 
@@ -47,10 +43,9 @@ Blockに紐付いて定義される。要素内のパーツであり、Block内�
 
 - キャメルケースを採用、
 
-* 範囲 + 種類・固有名詞  
+    * 範囲 + 種類・固有名詞  
 
-例：areaPost , wrapperSection
-
+        * 例：areaPost , wrapperSection
 
 
 ## チート表
@@ -58,7 +53,7 @@ Blockに紐付いて定義される。要素内のパーツであり、Block内�
 ### Block
 
 
-- 場所
+#### 場所
 
 | 単語　　　　　　 | 意味　　　　　　 |
 |:--------------|--------------:|
@@ -71,7 +66,7 @@ Blockに紐付いて定義される。要素内のパーツであり、Block内�
 | sidebar | 補足記事 |
 
 
-- 補足
+#### 補足
 
 | 単語　　　　　　 | 意味　　　　　　 |
 |:--------------|--------------:|
@@ -84,7 +79,7 @@ Blockに紐付いて定義される。要素内のパーツであり、Block内�
 | site | サイトの |
 
 
-- 比較
+#### 比較
 
 | 単語　　　　　　 | 意味　　　　　　 |
 |:--------------|--------------:|
@@ -99,7 +94,7 @@ Blockに紐付いて定義される。要素内のパーツであり、Block内�
 | general | 一般的な |
 
 
-- レイアウト
+#### レイアウト
 
 | 単語　　　　　　 | 意味　　　　　　 |
 |:--------------|--------------:|
@@ -113,7 +108,7 @@ Blockに紐付いて定義される。要素内のパーツであり、Block内�
 |  tile | 繰り返しによって構成されるパターン |
 
 
-- コンテンツ
+#### コンテンツ
 
 | 単語　　　　　　 | 意味　　　　　　 |
 |:--------------|--------------:|
@@ -140,7 +135,7 @@ Blockに紐付いて定義される。要素内のパーツであり、Block内�
 | faq | qandaの類語、Frequently asked questions（よくある質問）の略 |
 
 
-- Image
+#### Image
 
 | 単語　　　　　　 | 意味　　　　　　 |
 |:--------------|--------------:|
@@ -159,7 +154,7 @@ Blockに紐付いて定義される。要素内のパーツであり、Block内�
 | ticker | carouselの類語で自動でアイテムを左右に流しながら表示する。ユーザーは基本的にコントロールできない |
 
 
-- Navigation
+#### Navigation
 
 | 単語　　　　　　 | 意味　　　　　　 |
 |:--------------|--------------:|
@@ -184,7 +179,7 @@ scroll-tab | 表示領域よりも横に長いナビゲーションで、左右�
 | sns | ソーシャルネットワーキングサービス |
 
 
-- Form
+#### Form
 
 | 単語　　　　　　 | 意味　　　　　　 |
 |:--------------|--------------:|
@@ -201,7 +196,7 @@ scroll-tab | 表示領域よりも横に長いナビゲーションで、左右�
 
 ### Element
 
-- テキスト
+#### テキスト
 
 | 単語　　　　　　 | 意味　　　　　　 |
 |:--------------|--------------:|
@@ -216,7 +211,7 @@ scroll-tab | 表示領域よりも横に長いナビゲーションで、左右�
 | button | オン・オフの選択に使うインターフェイス |
 | btn | buttonの略語 |
 
-- 汎用的
+#### 汎用的
 
 | 単語　　　　　　 | 意味　　　　　　 |
 |:--------------|--------------:|
@@ -256,7 +251,7 @@ scroll-tab | 表示領域よりも横に長いナビゲーションで、左右�
 | separator | delimiterの類語で混ぜないように分離する目的で使います |
 | divider | delimiterの類語でグルーピングするように分割する目的で使います |
 
-- 補足
+#### 補足
 
 | 単語　　　　　　 | 意味　　　　　　 |
 |:--------------|--------------:|
@@ -297,7 +292,7 @@ scroll-tab | 表示領域よりも横に長いナビゲーションで、左右�
 | push | 前方に押す |
 | pull | 自分の方に引く |
 | offset | 相殺する・埋めあわせる |
-| left- 左側の |
+| left-左側の |
 | center | 真ん中 |
 | right | 右側の |
 | top | 上部 |
