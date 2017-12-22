@@ -4,43 +4,42 @@
 
 - Block（構成要素）
 
-    ページ内で何度でもどこでも置くことが出来る独立して動作するもの。
+ページ内で何度でもどこでも置くことが出来る独立して動作するもの。
 
 
 - Element（部品）
 
-    Blockに紐付いて定義される。要素内のパーツであり、Block内であれば繰り返し使用できる。
+Blockに紐付いて定義される。要素内のパーツであり、Block内であれば繰り返し使用できる。
 
 
 - Modifier（装飾）
 
-    少しだけ違うものを量産するときに用いる。あくまで変更がかかる要素に対して付ける。
+少しだけ違うものを量産するときに用いる。あくまで変更がかかる要素に対して付ける。
 
 
 ### 接続方法
 
 - BlockとElement（要素）をつなぐ時はアンダースコア`__`2つ
 
-    * Block + Element  
+* Block + Element  
 
-        例： area__title , wrapperSection__text
+例： area__title , wrapperSection__text
 
+* Block + Element + Element  
 
-    * Block + Element + Element  
-
-        例： area__aleat__title , wrapperSection__aleat__text
+例： area__aleat__title , wrapperSection__aleat__text
 
 
 - Modifier（装飾）につなぐ時はハイフン`--`2つ
 
-    * Block + Modifier  
+* Block + Modifier  
 
-        例：area--large , wrapperSection--red
+例：area--large , wrapperSection--red
 
 
-    * Block + Element + Modifier  
+* Block + Element + Modifier  
 
-        例：area__title--large , wrapperSection__text--red
+例：area__title--large , wrapperSection__text--red
 
 
 
@@ -48,9 +47,9 @@
 
 - キャメルケースを採用、
 
-    * 範囲 + 種類・固有名詞  
+* 範囲 + 種類・固有名詞  
 
-        例：areaPost , wrapperSection
+例：areaPost , wrapperSection
 
 
 
@@ -60,6 +59,7 @@
 
 
 - 場所
+
 | 単語　　　　　　 | 意味　　　　　　 |
 |:--------------|--------------:|
 | section | 区分・区画 |
@@ -72,6 +72,7 @@
 
 
 - 補足
+
 | 単語　　　　　　 | 意味　　　　　　 |
 |:--------------|--------------:|
 | wrapper | 内包する |
@@ -84,6 +85,7 @@
 
 
 - 比較
+
 | 単語　　　　　　 | 意味　　　　　　 |
 |:--------------|--------------:|
 | main | 主要な |
@@ -98,6 +100,7 @@
 
 
 - レイアウト
+
 | 単語　　　　　　 | 意味　　　　　　 |
 |:--------------|--------------:|
 | grid | グリッドレイアウト |
@@ -111,6 +114,7 @@
 
 
 - コンテンツ
+
 | 単語　　　　　　 | 意味　　　　　　 |
 |:--------------|--------------:|
 | about | 〜について |
@@ -137,6 +141,7 @@
 
 
 - Image
+
 | 単語　　　　　　 | 意味　　　　　　 |
 |:--------------|--------------:|
 | image | 画像 |
@@ -155,6 +160,7 @@
 
 
 - Navigation
+
 | 単語　　　　　　 | 意味　　　　　　 |
 |:--------------|--------------:|
 | navigation | 情報へ誘導するリンク |
@@ -179,6 +185,7 @@ scroll-tab | 表示領域よりも横に長いナビゲーションで、左右�
 
 
 - Form
+
 | 単語　　　　　　 | 意味　　　　　　 |
 |:--------------|--------------:|
 | form | 送信フォーム |
@@ -195,6 +202,7 @@ scroll-tab | 表示領域よりも横に長いナビゲーションで、左右�
 ### Element
 
 - テキスト
+
 | 単語　　　　　　 | 意味　　　　　　 |
 |:--------------|--------------:|
 | link | アンカーテキスト |
@@ -209,6 +217,7 @@ scroll-tab | 表示領域よりも横に長いナビゲーションで、左右�
 | btn | buttonの略語 |
 
 - 汎用的
+
 | 単語　　　　　　 | 意味　　　　　　 |
 |:--------------|--------------:|
 | inner | 内側の |
@@ -248,6 +257,7 @@ scroll-tab | 表示領域よりも横に長いナビゲーションで、左右�
 | divider | delimiterの類語でグルーピングするように分割する目的で使います |
 
 - 補足
+
 | 単語　　　　　　 | 意味　　　　　　 |
 |:--------------|--------------:|
 | emphasis | 強調・重視 |
