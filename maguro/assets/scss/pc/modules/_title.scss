@@ -1,0 +1,42 @@
+/* 見出し */
+
+header {
+
+    text-align: center;
+    padding: 40px 0;
+
+    .title__text {
+        margin: 15px 0 0 0;
+        color: map-get($colors, 'blackMain-color');
+        font-size: ($font-LL);
+    }
+
+    .title__text--white {
+        margin: 15px 0 0 0;
+        color: #fff;
+        font-size: ($font-LL);
+    }
+
+    .title__ruby {
+        font-family: 'Montserrat', sans-serif;
+        color: map-get($colors, 'blackMain-color');
+        font-size: 1.3rem;
+    }
+
+    .title__ruby--yellow {
+        font-family: 'Montserrat', sans-serif;
+        color: map-get($colors, 'accentMain-color');
+        font-size: 1.3rem;
+    }
+
+    .title__ruby--white {
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        font-size: 1.3rem;
+    }
+
+}
+
+.footerArea__unit header {
+    padding: 0 0 40px 0;
+}

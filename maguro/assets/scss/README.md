@@ -6,6 +6,11 @@
 
 ページ内で何度でもどこでも置くことが出来る独立して動作するもの。
 
+```<div class="">
+<a href=#>ほげほげ</a>
+</div>
+```
+
 - Element（部品）
 
 Blockに紐付いて定義される。要素内のパーツであり、Block内であれば繰り返し使用できる。
@@ -21,31 +26,31 @@ Blockに紐付いて定義される。要素内のパーツであり、Block内�
 
     * Block + Element  
 
-        * 例： area__title , wrapperSection__text
+        * 例： area__title , sectionWrapper__text
 
     * Block + Element + Element  
 
-        * 例： area__aleat__title , wrapperSection__aleat__text
+        * 例： area__aleat__title , sectionWrapper__aleat__text
 
 - Modifier（装飾）につなぐ時はハイフン`--`2つ
 
     * Block + Modifier  
 
-        * 例：area--large , wrapperSection--red
+        * 例：area--large , sectionWrapper--red
 
     * Block + Element + Modifier  
 
-        * 例：area__title--large , wrapperSection__text--red
+        * 例：area__title--large , sectionWrapper__text--red
 
 
 
 ## 複数語を繋ぐ場合
 
-- キャメルケースを採用、
+- キャメルケースを採用
 
-    * 範囲 + 種類・固有名詞  
+    * 種類・固有名詞 + 範囲  
 
-        * 例：areaPost , wrapperSection
+        * 例：PostArea , sectionWrapper
 
 
 ## チート表
@@ -210,6 +215,10 @@ scroll-tab | 表示領域よりも横に長いナビゲーションで、左右�
 | tooltip | マウスオーバー時に補足情報を表示するインターフェイス |
 | button | オン・オフの選択に使うインターフェイス |
 | btn | buttonの略語 |
+| text | 文章 |
+| txt | textの略語 |
+| title | 見出し・タイトル |
+| ttl | titleの略語 |
 
 #### 汎用的
 

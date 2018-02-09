@@ -1,30 +1,12 @@
 @charset "UTF-8";
 
-
-/* color */
-
-$colors:(
-// 青系
-baseMain-color: #0079c2,
-
-// 黄色系
-accentMain-color: #fff100,
-accentSub01-color: #ffff6d,
-
-// 赤系
-alertMain-color: #ff0000,
-alertSub01-color: #ff5454,
-
-// 黒系
-blackMain-color: #222222,
-);
-
-
 /* size */
 
-$font-M :1.6rem;
 $font-S :1.2rem;
+$font-SM :1.4rem;
+$font-M :1.6rem;
 $font-L :2.0rem;
+$font-LL :3.0rem;
 
 
 /* famiry */

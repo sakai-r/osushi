@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 /* ナビゲーション */
-.nav__inner {
+.nav {
     
-    .listMenu__item{
+    &__item{
         background: #222;
         height: 40px;
         display: flex;
