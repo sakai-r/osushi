@@ -33,212 +33,44 @@ button{
     appearance: none;
 }
 
-/* リンク */
 
-.p-text__link{
-    color:map-get($colors, baseMain-color);
-}
 
 
 /* コンテンツ全体 */
 
 
-.contentsSec__min{
+.wrapperMainArea__min{
     margin: 40px auto 0;
     overflow: hidden;
     width: 860px;//幅が狭いときはこちら
 }
 
-.l-ProductContents {
-    margin: 40px auto 0;
-    width: 960px;
-}
-
-/* 見出し */
-
-.contentsSec__inner {
-
-    header {
-        text-align: center;
-        margin: 40px 0;
-
-        .c-heading__translation{
-            font-family: 'Montserrat', sans-serif;
-            color: map-get($colors, 'accentMain-color');
-            font-size: 1.3rem;
-        }
-
-        .c-heading__title {
-            margin: 15px 0 40px 0;
-            color: #fff;
-        }
-
+.bgPattern--main{
+    height: 900px;
+    padding: 1px 0 0 0;
+    background:no-repeat bottom/100% 15% 
+    linear-gradient(to top left, #0079c2 49.7%, transparent 50%),no-repeat bottom/100% 30% 
+    linear-gradient(to top right, #ffff6d 50%, transparent 50%),no-repeat top/100% 54% 
+    linear-gradient(to bottom right, #f0f0f0 50%, transparent 50%),#fff
     }
 
-    .ariaItem__enjoy,.ariaItem__delivery{
-
-        header {
-            .c-heading__translation,.c-heading__title{
-                color: #000;
-            }
-            
-        }
-    }
-}
-
-/* コンテンツ背景 */
-.contentsSec__inner {
-
-    .ariaItem__sale{
-        background: map-get($colors, baseMain-color);
+    .bgPattern--saleList{
+        height: 100px;
+        padding: 1px 0 0 0;
+        background:no-repeat bottom/100% 80% 
+        linear-gradient(to top left, #005fb1 49.7%, transparent 50%),no-repeat top/100% 40% linear-gradient(to bottom right, #0079c2 100%, transparent 50%),#0079c2;
     }
 
-    .ariaItem__comingsoon{
-        background: #005fb1;
+    .bgPattern--comingsoonList{
+        height: 100px;
+        padding: 1px 0 0 0;
+        background:no-repeat bottom/100% 80% 
+        linear-gradient(to top right, #fff 49.7%, transparent 50%),no-repeat top/100% 40% linear-gradient(to bottom right, #005fb1 100%, transparent 50%),#005fb1;
     }
 
-    .riaItem__enjoy{
-        width: 100%;
-        background: #ccc;
-        transform: rotate(3deg);
+    .bgPattern--serviceDesc{
+        height: 500px;
+        padding: 1px 0 0 0;
+        background:no-repeat bottom/100% 50% 
+        linear-gradient(to top left, #f0f0f0 49.7%, transparent 50%),no-repeat top/100% 40% linear-gradient(to bottom right, #f0f0f0 100%, transparent 50%),#f0f0f0;
     }
-
-    .ariaItem__delivery{
-        
-    }
-}
-
-/* 商品セット */
-
-.l-ProductContents {
-    .productItem__box {
-        display: flex;
-        flex-wrap: wrap;
-        overflow: hidden;
-        width: 960px;
-
-        li {
-            width: 300px;
-            background: #fff;
-            margin: 0 30px 30px 0;
-            &:nth-child(3n){
-            margin-right: 0;
-            }
-
-            img {
-                width: 300px;
-                display: block;
-            }
-
-            .product__label {
-                background: #000;
-                color: #fff;
-                padding: 5px 8px 5px 10px;
-                font-size: 1.4rem;
-                position: relative;
-                &:after{
-                    display: block;
-                    content: "";
-                    position: absolute;
-                    top: 0;
-                    left: 49px;
-                    border-top: 0px solid #000;
-                    border-right: 10px solid transparent;
-                    border-bottom: 0px solid transparent;
-                    border-left: 1px solid transparent;
-                }
-            }
-            .colorNew__label {
-                background: #009bf9;
-                &:after{
-                    border-top: 26px solid #009bf9;
-                }
-            }
-
-            .productItem__title{
-                
-                margin: 14px 20px  0 20px;
-                height: 40px;
-            }
-
-            .data__title{
-                span{
-                display: inline-block;
-                border: 1px solid #222222;
-                font-size: $font-S;
-                margin: 0 14px 0 20px;
-                padding: 0 4px 0 6px;
-                }
-                time{
-                    font-size: 14px;
-                }
-            }
-        }
-    }
-
-}
-
-/* 6コマ漫画 */
-
-.ariaItem__enjoy{
-
-    ul{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 960px;
-        margin: 0 auto;
-
-        li img{
-            width: 300px;
-            margin-bottom: 25px;
-        }
-    }
-}
-
-/* フッターエリア */
-
-.l-footer {
-    background: map-get($colors, blackMain-color);
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.ariaItem__news {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 960px;
-    margin: 0 auto;
-
-    .l-NewsContents {
-        width: 460px;
-
-        .c-heading__translation,.c-heading__title {
-            color: #fff;
-            text-align: center;
-        }
-        a{
-            color: #41abd9;
-        }
-
-        ul{
-            font-size: $font-S;
-        }
-
-        li{
-            display: flex;
-            border-bottom: 1px #666 solid;
-            time{
-                color: #fff;
-            }
-
-        }
-        .NewsContents__link{
-            display: inline-block;
-            float: right;
-        }
-    
-    }
-}
-

@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 /* ナビゲーション */
-.l-navi {
+.nav {
     
-    .navi__text {
+    &__item{
         background: #222;
         height: 40px;
         display: flex;

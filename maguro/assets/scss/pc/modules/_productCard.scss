@@ -1,0 +1,82 @@
+/* 商品セット */
+
+.productItem__block {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 960px;
+    margin: 0 auto;
+
+    li {
+        width: 300px;
+        background: #fff;
+        margin: 0 30px 30px 0;
+        &:nth-child(3n){
+            margin-right: 0;
+            // &:hover {
+            //     box-shadow: 5px inset #fff100;
+            //     margin: -5px;
+            // }
+        }
+
+        a{
+            color:#222;
+        }
+
+        img {
+            width: 300px;
+            display: block;
+        }
+
+        .product__label {
+            color: #fff;
+            padding: 5px 8px 5px 10px;
+            font-size: 1.4rem;
+            position: relative;
+            @mixin product__label($color:#999){
+                background: $color;
+                &:after{
+                    border-top: 26px solid $color;
+                }
+            }
+            &:after{
+                display: block;
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 49px;
+                border-right: 10px solid transparent;
+                border-bottom: 0px solid transparent;
+                border-left: 1px solid transparent;
+            }
+            &--new {
+                @include product__label (#14b4b2);
+            }
+            &--sale {
+                @include product__label (#009bf9);
+            }
+            &--nearEnd {
+                @include product__label (#f18f01);
+            }
+        }
+
+        .productItem__title{
+            margin: 14px 20px  0 20px;
+            height: 40px;
+            font-weight: bold;
+        }
+
+        .data__title{
+            span{
+                display: inline-block;
+                border: 1px solid #222222;
+                font-size: $font-S;
+                margin: 0 14px 0 20px;
+                padding: 0 4px 0 6px;
+            }
+            time{
+                font-size: 14px;
+            }
+        }
+    }
+}

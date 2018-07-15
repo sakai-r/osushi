@@ -2,23 +2,24 @@
 
 /* 絞り込み機能 */
 
-.contentsSec__inner {
-    .m-listRefine {
-        .refine__text {
+        .selectCategory__btn {
             display: flex;
             justify-content: center;
             li {
-                margin: 0 1rem;                
+                margin: 0 1rem;          
 
                 button {
                     display: inline-block;
                     width: 140px;
-                    padding: 5px 0;
+                    padding: 10px;
                     text-align: center;
-                    border: 2px solid #000;
+                    border: 2px solid #fff;
                     border-radius: 3px;
+                    color:#fff;  
+                }
+                :hover{
+                    color:map-get($colors, baseMain-color);
+                    background: #fff;
                 }
             }
         }
-    }
-}
