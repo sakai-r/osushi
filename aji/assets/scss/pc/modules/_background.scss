@@ -1,0 +1,29 @@
+/* 背景 */
+
+
+.selectCategory{
+    margin: 0 auto;
+    padding:40px 0;
+    background: map-get($colors, baseMain-color);
+}
+.itemList {
+
+    .saleList {
+        background: map-get($colors, baseMain-color);
+    }
+
+    .comingsoonList {
+        background: #005fb1;
+    }
+
+    .serviceDesc {
+        width: 100%;
+        background: #ccc;
+        // transform: rotate(3deg);
+    }
+    .deliveryDesc{
+        padding: 40px;
+
+    }
+
+}
