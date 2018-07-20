@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/* リンク */
+
+$link:(
+// 青系
+siteTxtLink:map-get($colors, baseMain-color),
+siteTxtLink--bgDark:map-get($colors, baseSecondary-color)
+);
+
+// 基本
+a{
+    color: map-get($link, siteTxtLink);
+}

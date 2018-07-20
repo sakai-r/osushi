@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+html {
+    width: 100%;
+    height: 100%;
+    font-size:62.5%;
+    min-width: 980px;
+}
+
+body {
+    width: 100%;
+    font-family: $font-gothic;
+    font-size:1.6rem;
+    line-height: 1.5;
+}
+
+ol,ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+  }
+
+a {
+    text-decoration: none;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+}
+
+
+
+
+/* コンテンツ全体 */
+
+
+.wrapperMainArea__min{
+    margin: 40px auto 0;
+    overflow: hidden;
+    width: 860px;//幅が狭いときはこちら
+}
+
+.bgPattern--main{
+    height: 900px;
+    padding: 1px 0 0 0;
+    background:no-repeat bottom/100% 15% 
+    linear-gradient(to top left, #0079c2 49.7%, transparent 50%),no-repeat bottom/100% 30% 
+    linear-gradient(to top right, #ffff6d 50%, transparent 50%),no-repeat top/100% 54% 
+    linear-gradient(to bottom right, #f0f0f0 50%, transparent 50%),#fff
+    }
+
+    .bgPattern--saleList{
+        height: 100px;
+        padding: 1px 0 0 0;
+        background:no-repeat bottom/100% 80% 
+        linear-gradient(to top left, #005fb1 49.7%, transparent 50%),no-repeat top/100% 40% linear-gradient(to bottom right, #0079c2 100%, transparent 50%),#0079c2;
+    }
+
+    .bgPattern--comingsoonList{
+        height: 100px;
+        padding: 1px 0 0 0;
+        background:no-repeat bottom/100% 80% 
+        linear-gradient(to top right, #fff 49.7%, transparent 50%),no-repeat top/100% 40% linear-gradient(to bottom right, #005fb1 100%, transparent 50%),#005fb1;
+    }
+
+    .bgPattern--serviceDesc{
+        height: 500px;
+        padding: 1px 0 0 0;
+        background:no-repeat bottom/100% 50% 
+        linear-gradient(to top left, #f0f0f0 49.7%, transparent 50%),no-repeat top/100% 40% linear-gradient(to bottom right, #f0f0f0 100%, transparent 50%),#f0f0f0;
+    }

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+.footer {
+    background: map-get($colors, blackMain-color);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footerArea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto;
+
+    &__unit {
+        width: 460px;
+
+        &__translation , &__title {
+                    color: #fff;
+                    text-align: center;
+        }
+        a{
+            color: map-get($link, siteTxtLink--bgDark);
+        }
+
+        ul{
+            font-size: $font-SM;
+        }
+
+        li{
+            display: flex;
+            border-bottom: 1px #666 solid;
+            margin: 10px 0;
+            time{
+                color: #fff;
+                display: inline-block;
+                width: 160px;
+                margin-right: 30px;
+            }
+        }
+
+        &Link {
+            display: inline-block;
+            float: right;
+        }   
+        .snsArea__btn{
+            height: 100px;
+            border: 1px #666 solid;
+            margin-top:  85px; 
+            p {
+                color: #fff;
+                text-align: center;
+            }
+        }
+    }
+}
